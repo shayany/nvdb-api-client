@@ -1,0 +1,46 @@
+{
+  "objekter": [
+    {
+      "id": 22592,
+      "href": "https://pm1.utv.vegvesen.no/nvdb/api/v3/vegnett/noder/22592",
+      "startdato": "1950-01-01",
+      "geometri": {
+        "wkt": "POINT Z (100007.63000488 6502757.89990234 244.25)",
+        "srid": 5973,
+        "kvalitet": {
+          "målemetode": 0,
+          "nøyaktighet": 0,
+          "nøyaktighetHøyde": -1,
+          "maksimaltAvvik": -1,
+          "synbarhet": 99
+        }
+      },
+      "porter": [
+        {
+          "id": 1,
+          "tilkobling": {
+            "portnummer": 1,
+            "veglenkesekvensid": 14907,
+            "href": "https://pm1.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/14907"
+          }
+        },
+        {
+          "id": 2,
+          "tilkobling": {
+            "portnummer": 3,
+            "veglenkesekvensid": 1982,
+            "href": "https://pm1.utv.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/1982"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "antall": 1,
+    "returnert": 1,
+    "neste": {
+      "start": "4FaKLPhouDvVzH29gijU4U4vUQT4EwJRYfDnFawVQhXnAK6Q6hTJVUg",
+      "href": "https://pm1.utv.vegvesen.no/nvdb/api/v3/vegnett/noder?antall=1&start=4FaKLPhouDvVzH29gijU4U4vUQT4EwJRYfDnFawVQhXnAK6Q6hTJVUg"
+    }
+  }
+}

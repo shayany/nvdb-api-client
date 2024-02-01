@@ -1,0 +1,20 @@
+{
+  "stedfestinger": [
+    {
+      "type": "Sving",
+      "nodeid": 995494,
+      "startpunkt": {
+        "veglenkesekvensid": 942450,
+        "relativPosisjon": 0.23585116,
+        "kortform": "0.23585116-0.23585116@942450",
+        "kjørefelt": []
+      },
+      "sluttpunkt": {
+        "veglenkesekvensid": 942694,
+        "relativPosisjon": 0.64558392,
+        "kortform": "0.64558392-0.64558392@942694",
+        "kjørefelt": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "navn": "1211 Tunnel 2016-2021",
+    "nummer": 1211,
+    "type": "Tunnelkontrakt",
+    "vegobjekter": [
+        {
+            "id": 1,
+            "versjon": 1,
+            "type": 580,
+            "href": "http://localhost:12002/vegobjekter/538/1/1"
+        }
+    ]
+  },
+  {
+    "navn": "1257 ELEKTRO",
+    "nummer": 1257,
+    "type": "Elektrokontrakt",
+    "vegobjekter": [
+        {
+            "id": 2,
+            "versjon": 1,
+            "type": 580,
+            "href": "http://localhost:12002/vegobjekter/580/2/1"
+        }
+    ]
+  },
+  {
+    "navn": "1291 Asola grønt 2017-2022",
+    "nummer": 1291,
+    "type": "Driftskontrakt",
+    "vegobjekter": [
+        {
+            "id": 1,
+            "versjon": 1,
+            "type": 580,
+            "href": "http://localhost:12002/vegobjekter/580/3/1"
+        }
+    ]
+  }
+]
