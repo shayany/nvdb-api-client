@@ -28,6 +28,8 @@ package no.vegvesen.nvdbapi.client.clients;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.ClientBuilder;
 import no.vegvesen.nvdbapi.client.ClientConfiguration;
 import no.vegvesen.nvdbapi.client.ProxyConfig;
 import no.vegvesen.nvdbapi.client.gson.GsonMessageBodyHandler;
@@ -46,8 +48,6 @@ import org.glassfish.jersey.message.GZipEncoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
 import java.io.*;
 import java.lang.reflect.Proxy;
 import java.net.URL;

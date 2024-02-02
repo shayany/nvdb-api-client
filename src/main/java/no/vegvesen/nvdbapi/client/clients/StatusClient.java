@@ -26,12 +26,12 @@
 package no.vegvesen.nvdbapi.client.clients;
 
 import com.google.gson.JsonObject;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.UriBuilder;
 import no.vegvesen.nvdbapi.client.gson.StatusParser;
 import no.vegvesen.nvdbapi.client.model.Status;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.UriBuilder;
 import java.util.function.Consumer;
 
 public class StatusClient extends AbstractJerseyClient {

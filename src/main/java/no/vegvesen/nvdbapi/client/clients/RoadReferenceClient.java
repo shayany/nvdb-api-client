@@ -2,12 +2,12 @@ package no.vegvesen.nvdbapi.client.clients;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.UriBuilder;
 import no.vegvesen.nvdbapi.client.gson.PlacementParser;
 import no.vegvesen.nvdbapi.client.model.Position;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.UriBuilder;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

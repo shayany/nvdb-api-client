@@ -26,6 +26,9 @@
 package no.vegvesen.nvdbapi.client.clients;
 
 import com.google.gson.JsonElement;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.UriBuilder;
 import no.vegvesen.nvdbapi.client.gson.SegmentedLinkParser;
 import no.vegvesen.nvdbapi.client.model.Page;
 import no.vegvesen.nvdbapi.client.model.roadnet.DetailLevel;
@@ -33,9 +36,6 @@ import no.vegvesen.nvdbapi.client.model.roadnet.SegmentedLink;
 import no.vegvesen.nvdbapi.client.model.roadnet.TopologyLevel;
 import no.vegvesen.nvdbapi.client.model.roadnet.TypeOfRoad;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.UriBuilder;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.function.Consumer;

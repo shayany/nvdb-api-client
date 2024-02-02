@@ -27,14 +27,14 @@ package no.vegvesen.nvdbapi.client.clients;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.UriBuilder;
 import no.vegvesen.nvdbapi.client.gson.RoadPlacementParser;
 import no.vegvesen.nvdbapi.client.model.Projection;
 import no.vegvesen.nvdbapi.client.model.RoadPlacement;
 import no.vegvesen.nvdbapi.client.model.RoadPlacementBulkResult;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.UriBuilder;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

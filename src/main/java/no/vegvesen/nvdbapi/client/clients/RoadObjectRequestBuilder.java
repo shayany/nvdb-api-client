@@ -26,12 +26,12 @@
 
 package no.vegvesen.nvdbapi.client.clients;
 
+import jakarta.ws.rs.core.MultivaluedHashMap;
+import jakarta.ws.rs.core.MultivaluedMap;
 import no.vegvesen.nvdbapi.client.model.roadnet.DetailLevel;
 import no.vegvesen.nvdbapi.client.model.roadnet.SeparatePassages;
 import no.vegvesen.nvdbapi.client.model.roadnet.TypeOfRoad;
 
-import javax.ws.rs.core.MultivaluedHashMap;
-import javax.ws.rs.core.MultivaluedMap;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;

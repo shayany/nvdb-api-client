@@ -1,13 +1,13 @@
 package no.vegvesen.nvdbapi.client.clients;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
+import jakarta.ws.rs.ProcessingException;
 import no.vegvesen.nvdbapi.client.ClientConfiguration.ClientConfigurationBuilder;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import javax.ws.rs.ProcessingException;
 import java.util.Random;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;

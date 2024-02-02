@@ -26,15 +26,15 @@
 package no.vegvesen.nvdbapi.client.clients;
 
 import com.google.gson.JsonElement;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.UriBuilder;
 import no.vegvesen.nvdbapi.client.gson.RoadNetParser;
 import no.vegvesen.nvdbapi.client.model.Page;
 import no.vegvesen.nvdbapi.client.model.roadnet.LinkSequence;
 import no.vegvesen.nvdbapi.client.model.roadnet.Node;
 import no.vegvesen.nvdbapi.client.model.roadnet.TopologyLevel;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.UriBuilder;
 import java.util.List;
 import java.util.Objects;
 import java.util.function.Consumer;

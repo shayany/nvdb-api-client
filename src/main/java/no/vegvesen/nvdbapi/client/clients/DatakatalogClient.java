@@ -27,6 +27,9 @@ package no.vegvesen.nvdbapi.client.clients;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.UriBuilder;
 import no.vegvesen.nvdbapi.client.gson.AttributeTypeParser;
 import no.vegvesen.nvdbapi.client.gson.DatakatalogVersionParser;
 import no.vegvesen.nvdbapi.client.gson.FeatureTypeParser;
@@ -35,9 +38,6 @@ import no.vegvesen.nvdbapi.client.util.Stopwatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.UriBuilder;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
